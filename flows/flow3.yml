@@ -1,0 +1,32 @@
+completion_text: |-
+  <p>asd asd asd asdas dasd asda sdasd asd as</p><p>asd&nbsp;</p><p>as</p><p>d&nbsp;</p><p>as</p><p>d as</p><p><br></p><p>as&nbsp;</p><p>das</p><p>d</p><p>&nbsp;asd</p><p>as dasdasd&nbsp;</p>
+description: |-
+  dasd asdas ads asdasd
+next_flow_id: ''
+next_flow_title: ''
+pages:
+- content: |-
+    <p>asd asdas adsas dasd asdasd&nbsp;</p><p>asas d</p><p>asd&nbsp;</p><p>as</p><p>d</p><p>asd</p><p>asd</p>
+  id: page4
+  title: "D\xEDa 1: Prueba 1"
+  type: Page
+- content: |-
+    <p>asd asdasd ada sasd as dasd as</p><p>as</p><p>d&nbsp;</p><p>as</p><p>&nbsp;d</p><p>as</p><p>asd&nbsp;</p><p>as</p><p>d asdas dasd asd asd aas dasd as d</p><p>as d</p><p>as</p><p>&nbsp;dasd</p>
+  id: page5
+  title: "D\xEDa 2: Prueba 2"
+  type: Page
+- content: |-
+    <p>asd asd asdas asd as</p><p>as&nbsp;</p><p>das</p><p>d&nbsp;</p><p>as</p><p>d as</p><p>d</p><p>asd asda sdas dasd asda ads&nbsp;</p><p>asd&nbsp;</p><p>asdasd asasd&nbsp;</p>
+  id: page6
+  title: "D\xEDa 3: Prueba final"
+  type: Page
+rules:
+  access:
+    if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: 'Semana 1: Interes'
