@@ -22,7 +22,7 @@ pages:
   type: Page
 rules:
   access:
-    if_has_role:
+  - if_has_role:
     - ta
     - student
     - instructor
