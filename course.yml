@@ -1,0 +1,20 @@
+chunks:
+- content: ''
+  flows:
+  - flow_id: flow3
+    next_flow: null
+    pages:
+    - flow_id: page4
+      title: "D\xEDa 1: Prueba 1"
+    - flow_id: page5
+      title: "D\xEDa 2: Prueba 2"
+    - flow_id: page6
+      title: "D\xEDa 3: Prueba final"
+    title: 'Semana 1: Interes'
+    title_next_flow: ''
+  id: welcome
+  introduction: <p>Hola bueasd asdas</p><p>&nbsp;das</p><p>d</p><p>as&nbsp;</p><p>das</p><p>&nbsp;dasd
+    asdasd asd asdas asd asdasdas adsas d</p><p>as d</p><p>asd</p><p>&nbsp;as</p><p>d
+    asdas</p><p>d as</p><p><br></p>
+  rules: []
+  title: Forex
