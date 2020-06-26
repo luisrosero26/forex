@@ -1,0 +1,70 @@
+completion_text: |-
+  <p>as dasd asdasd asdas dasd asdas dasdasdnajsd lasdlajsd jasjld asd</p>
+description: "asd asdasd asd asas dasd as\r\nas d\r\nasd\r\n asd\r\nasdas"
+groups:
+- id: intro
+  pages:
+  - content: "<p>&nbsp;asdasd asdas dasd asdas d</p><p>as dasd asdasdas asdasd asdas</p><p>asd\
+      \ asdasd&nbsp;</p> "
+    id: welcome
+    title: Quiz 1
+    type: Page
+- id: quiz_start
+  pages:
+  - answers:
+    - rtol: 0.0
+      type: float
+      value: '4'
+    - <plain>cuatro
+    id: quizquestion9
+    prompt: ''
+    title: cuanto es 2+2?
+    type: TextQuestion
+    value: 50.0
+  - choices:
+    - 3 banderas
+    - 2 banderas
+    - ~CORRECT~ 1 bandera
+    id: quizquestion7
+    prompt: ''
+    title: Cuantas banderas tiene colombia?
+    type: ChoiceQuestion
+    value: 5.0
+  - choices:
+    - 17 dptos
+    - 24 dptos
+    - ~CORRECT~ 32 dptos
+    credit_mode: exact
+    id: quizquestion8
+    prompt: ''
+    shuffle: true
+    title: Cuantos dptos tiene el pais?
+    type: MultipleChoiceQuestion
+    value: 10.0
+  shuffle: false
+rules:
+  access:
+  - message: "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de\
+      \ acceso."
+    permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz4
+  grading:
+  - credit_percent: 50
+  start:
+  - if_before: '2020-06-27 21:45:02'
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: false
+title: Quiz 1
