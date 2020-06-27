@@ -44,9 +44,7 @@ groups:
   shuffle: false
 rules:
   access:
-  - message: "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de\
-      \ acceso."
-    permissions:
+  - permissions:
     - view
     - submit_answer
     - end_session
