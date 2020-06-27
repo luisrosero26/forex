@@ -8,12 +8,7 @@ pages:
 - content: |-
     <p><span style="color: rgb(255, 0, 0); background-color: rgb(57, 123, 33);">as dasd asdas dasd asdasasd asd asas dasd asas das d asd asdasd</span></p><p><br></p><p><br></p><p><br></p><p>este es mi contenido</p>
   id: intro
-  title: !!python/object/apply:django.utils.functional._lazy_proxy_unpickle
-  - !!python/name:django.utils.translation.gettext ''
-  - !!python/tuple
-    - Inicio
-  - {}
-  - !!python/name:builtins.str ''
+  title: INICIO
   type: Page
 - content: |-
     <p>asd asdas adsas dasd asdasd&nbsp;</p><p>asas d</p><p>asd&nbsp;</p><p>as</p><p>d</p><p>asd</p><p>asd</p>
