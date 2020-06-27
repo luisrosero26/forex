@@ -6,7 +6,7 @@ next_flow_id: quiz4
 next_flow_title: quiz
 pages:
 - content: |-
-    <p>as dasd asdas dasd asdasasd asd asas dasd asas das d</p>
+    <p><span style="color: rgb(255, 0, 0); background-color: rgb(57, 123, 33);">as dasd asdas dasd asdasasd asd asas dasd asas das d asd asdasd</span></p><p><br></p><p><br></p><p><br></p><p>este es mi contenido</p>
   id: intro
   title: 'Semana 1: Interes'
   type: Page
