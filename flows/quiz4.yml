@@ -53,7 +53,7 @@ rules:
   grade_aggregation_strategy: use_latest
   grade_identifier: quiz4
   grading:
-  - credit_percent: 50
+  - credit_percent: 100
   start:
   - if_before: 2020-07-23 21:45:02+00:00
     if_has_fewer_sessions_than: 2
