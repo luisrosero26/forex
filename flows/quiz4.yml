@@ -11,29 +11,29 @@ groups:
     type: Page
 - id: quiz_start
   pages:
+  - choices:
+    - ~CORRECT~ 1 bandera
+    - 2 banderas
+    - 3 banderas
+    id: quizquestion7
+    prompt: ''
+    title: Cuantas banderas tiene colombia?
+    type: ChoiceQuestion
+    value: 5.0
   - answers:
+    - <plain>cuatro
     - rtol: 0.0
       type: float
       value: '4'
-    - <plain>cuatro
     id: quizquestion9
     prompt: ''
     title: cuanto es 2+2?
     type: TextQuestion
     value: 50.0
   - choices:
-    - 3 banderas
-    - 2 banderas
-    - ~CORRECT~ 1 bandera
-    id: quizquestion7
-    prompt: ''
-    title: Cuantas banderas tiene colombia?
-    type: ChoiceQuestion
-    value: 5.0
-  - choices:
-    - 17 dptos
-    - 24 dptos
     - ~CORRECT~ 32 dptos
+    - 24 dptos
+    - 17 dptos
     credit_mode: exact
     id: quizquestion8
     prompt: ''
